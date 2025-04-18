@@ -1,13 +1,13 @@
 #include <WiFi.h>
 #include <ESP32Servo.h>
 
-const char* ssid = "Sahroni";
-const char* password = "nursahroni";
+const char* ssid = "Ganti ssid wifi kamu";
+const char* password = "ganti password wifi kamu";
 
 WiFiServer server(80);
 Servo myServo;
 
-const int servoPin = 26;
+const int servoPin = 26; ///// ganti pin bebas
 String header;
 
 void setup() {
