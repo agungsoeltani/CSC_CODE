@@ -1,11 +1,11 @@
 #include <WiFi.h>
 
 // Ganti dengan WiFi kamu
-const char* ssid = "Sahroni";
-const char* password = "nursahroni";
+const char* ssid = "GANTI SSID WIFI KAMU";
+const char* password = "GANTI PASSWORD WIFI KAMU";
 
 WiFiServer server(80);
-const int ledPin = 26; // Ganti ke GPIO26
+const int ledPin = 26; // Ganti ke pin lain juga boleh
 String header;
 
 void setup() {
